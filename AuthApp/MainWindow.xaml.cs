@@ -16,6 +16,10 @@ namespace AuthApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        //Test logins and passwords
+        List<string> testLogins = new List<string>() { "testemail@gmail.com", "testmail@mail.ru" };
+        List<string> testPasswords = new List<string>() { "45654gldJJs4!", "fj%&&fjfj%%222" };
+
         public MainWindow()
         {
             InitializeComponent();
